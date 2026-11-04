@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
+        rel="stylesheet">
+
+    <script src="script.js" defer></script>
+    <title>Entre Hebras</title>
+</head>
+
+<body>
+
+    
+<header>
+    <div class="marca">
+        <a href="#inicio" class="logo">
+            <img src="imagenes/producto-default.png" alt="Logo de Entre Hebras">
+        </a>
+
+        <div class="marca-texto">
+            <span class="marca-nombre">Entre Hebras</span>
+            <span class="marca-eslogan">TEJIDOS CON AMOR</span>
+        </div>
+    </div>
+
+    <nav aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+
+    <main>
+
+    <section id="inicio">
+    
+        <div class="inicio-contenido">
+    
+            <span class="inicio-etiqueta">HECHO A MANO</span>
+    
+            <h1>Tejidos para acompañar tus días</h1>
+    
+            <p>
+                Piezas tejidas con dedicación, pensadas para brindar
+                calidez, comodidad y un toque especial a cada momento.
+            </p>
+    
+            <a href="#productos" class="boton">Explorar productos</a>
+    
+        </div>
+    
+        <div class="inicio-imagen">
+    
+            <img src="imagenes/producto-default.png" alt="Producto tejido artesanal">
+    
+        </div>
+    
+    </section>
+    
+    <section id="productos">
+        <div class="catalogo-header">
+    <span class="seccion-etiqueta">NUESTRA COLECCIÓN</span>
+    <h2>Encontrá tu próximo tejido</h2>
+    <p>Explorá nuestros productos hechos a mano y encontrá el que más te guste.</p>
+    
+    </div>
+    
+        <div class="catalogo-controles">
+    
+            <input type="text" id="buscador" placeholder="¿Qué estás buscando?" aria-label="Buscar productos por nombre o descripción">
+    
+            <div class="categorias">
+    
+                <button type="button" class="categoria-activa">
+                    Todos
+                </button>
+    
+                <button type="button">
+                    Gorros
+                </button>
+    
+                <button type="button">
+                    Bufandas
+                </button>
+    
+                <button type="button">
+                    Accesorios
+                </button>
+
+                </div>
+
+            </div>
+
+            <p id="mensaje-catalogo" role="status" aria-live="polite" hidden></p>
+
+            <div class="productos-container">
+               
+            </div>
+            <p class="aviso-imagenes">
+    Las imágenes son ilustrativas y se utilizan como referencia visual.
+    Los productos y fotografías son parte de un proyecto de demostración.
+</p>
+
+        </section>
+
+        <section id="nosotros">
+
+            <h2>Sobre Nosotros</h2>
+            <p>
+                Cada producto es realizado a mano, cuidando cada detalle
+                para ofrecer piezas únicas y especiales. Nos apasiona el arte del tejido y nos esforzamos por crear productos que no solo sean funcionales, sino también estéticamente agradables. Nuestro objetivo es brindar a nuestros clientes una experiencia cálida y personalizada, asegurando que cada pieza que adquieran sea un reflejo de nuestra dedicación y amor por lo que hacemos. 
+
+            </p>
+
+        </section>
+
+    </main>
+
+   <footer id="contacto">
+    <h2>Contacto</h2>
+
+    <button type="button" class="boton-contacto" data-red="WhatsApp">
+        WhatsApp
+    </button>
+
+    <button type="button" class="boton-contacto" data-red="Instagram">
+        Instagram
+    </button>
+
+    <p class="aviso-contacto" id="aviso-contacto" role="status" aria-live="polite" hidden></p>
+
+    <p>Entre Hebras - Proyecto de demostración</p>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+[
+{
+    "id":1,
+    "nombre":"Gorro clásico",
+    "descripcion":"Gorro clásico morado.",
+    "precio":8500,
+    "categoria":"Gorros",
+    "imagen": "imagenes/gorro-morado.png"
+},
+{
+    "id":2,
+    "nombre":"Gorro clásico",
+    "descripcion":"Gorro clásico azul.",
+    "precio":9500,
+    "categoria":"Gorros",
+    "imagen": "imagenes/gorro-azul.png"
+},
+{
+    "id":3,
+    "nombre":"Gorro circular",
+    "descripcion":"Gorro circular celeste.",
+    "precio":5500,
+    "categoria":"Gorros",
+    "imagen": "imagenes/gorro-celeste.jpg"
+},
+{
+    "id":4,
+    "nombre":"Gorro holgado",
+    "descripcion":"Gorro holgado verde.",
+    "precio":11500,
+    "categoria":"Gorros",
+    "imagen": "imagenes/gorro-verde.png"
+},
+{
+    "id":5,
+    "nombre":"Bufanda clásica",
+    "descripcion":"Bufanda amarilla.",
+    "precio":3500,
+    "categoria":"Bufandas",
+    "imagen": "imagenes/bufanda-amarilla.jpg"
+},
+{
+    "id":6,
+    "nombre":"Bufanda clásica",
+    "descripcion":"Bufanda azul.",
+    "precio":6000,
+    "categoria":"Bufandas",
+    "imagen": "imagenes/bufanda-azul.jpg"
+},
+{
+    "id":7,
+    "nombre":"Bufanda clásica",
+    "descripcion":"Bufanda blanca.",
+    "precio":3900,
+    "categoria":"Bufandas",
+    "imagen": "imagenes/bufanda-blanca.jpg"
+},
+{
+    "id":8,
+    "nombre":"Bufanda clásica",
+    "descripcion":"Bufanda gris.",
+    "precio":4300,
+    "categoria":"Bufandas",
+    "imagen": "imagenes/bufanda-gris.jpg"
+},
+{
+    "id":9,
+    "nombre":"Bufanda clásica",
+    "descripcion":"Bufanda lavanda.",
+    "precio":4900,
+    "categoria":"Bufandas",
+    "imagen": "imagenes/bufanda-lavanda.jpg"
+},
+{
+    "id":10,
+    "nombre":"Bufanda clásica",
+    "descripcion":"Bufanda marron.",
+    "precio":3100,
+    "categoria":"Bufandas",
+    "imagen": "imagenes/bufanda-marron.jpg"
+},
+{
+    "id":11,
+    "nombre":"Bufanda tricolor",
+    "descripcion":"Bufanda tricolor.",
+    "precio":8900,
+    "categoria":"Bufandas",
+    "imagen": "imagenes/bufanda-tricolor.jpg"
+},
+{
+    "id":12,
+    "nombre":"Bufanda clásica",
+    "descripcion":"Bufanda turquesa.",
+    "precio":5900,
+    "categoria":"Bufandas",
+    "imagen": "imagenes/bufanda-turquesa.jpg"
+},
+{
+    "id":13,
+    "nombre":"Aros",
+    "descripcion":"Aros de acero quirurjico.",
+    "precio":1900,
+    "categoria":"Accesorios",
+    "imagen": "imagenes/aros.jpg"
+},
+{
+    "id":14,
+    "nombre":"Collar hada",
+    "descripcion":"Collar de acero quirurjico.",
+    "precio":2900,
+    "categoria":"Accesorios",
+    "imagen": "imagenes/collar.jpg"
+},
+{
+    "id":15,
+    "nombre":"Aros estrella",
+    "descripcion":"Aros estrella de acero quirurjico.",
+    "precio":1500,
+    "categoria":"Accesorios",
+    "imagen": "imagenes/aros-estrella.jpg"
+}
+
+
+]
