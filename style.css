@@ -576,7 +576,7 @@ nav a:focus-visible,
     }
 
     .inicio-imagen img {
-        height: 300px;
+        height: 400px;
     }
 
     #productos {
@@ -603,7 +603,7 @@ nav a:focus-visible,
     }
 
     .productos-container article img {
-        height: 280px;
+        height: 250px;
     }
 
     #nosotros {
